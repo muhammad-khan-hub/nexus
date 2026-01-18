@@ -1,0 +1,2094 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sample-section{
+        padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+width: 100%;
+}
+.sample-section .container{
+display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(221, 218, 218) ;
+    padding-bottom: 90px;
+}
+.sample-section .container p{
+    line-height: 25px;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+.sample-section .container p b,u,span,sup,sub,strike{
+    color: rgb(0, 174, 255);
+}
+.buttons-section{
+padding:20px ;
+}
+.buttons-section .container .h2 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.buttons-section .container{
+    max-width: 1200px;
+    margin: auto;
+display: flex;
+flex-direction: column;
+gap: 40px; 
+}
+.buttons-section .container a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    transition: .4s;
+    padding: 13px 28px;
+}
+.buttons-section .container .one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 13px;
+}
+.buttons-section .container .one a:nth-child(1){
+color: black;
+background-color:rgb(245, 244, 242);
+border: 1px solid rgb(245, 244, 242);
+}
+.buttons-section .container .one a:hover:nth-child(1){
+background-color: transparent;
+}
+.buttons-section .container .one a:nth-child(2){
+    background-color: rgb(247, 170, 28);
+border: 1px solid  rgb(247, 170, 28);
+}
+.buttons-section .container .one a:hover:nth-child(2){
+background-color: transparent;
+color: orange;
+}
+.buttons-section .container .one a:nth-child(3){
+    background-color:rgb(0, 140, 255);
+    border: 1px solid rgb(0, 140, 255);
+}
+.buttons-section .container .one a:hover:nth-child(3){
+    color: rgb(87, 87, 233);
+    background-color: transparent;
+}
+.buttons-section .container .one a:nth-child(4){
+    background-color: rgb(0, 204, 255);
+  border: 1px solid rgb(0, 204, 255);
+}
+.buttons-section .container .one a:hover:nth-child(4){
+    background-color:transparent;
+    color: rgb(55, 150, 238);
+    border: 1px solid rgb(55, 150, 238);
+}
+.buttons-section .container .one a:nth-child(5){
+    background-color: rgb(255, 238, 0);
+    border:1px solid rgb(255, 238, 0);
+}
+.buttons-section .container .one a:hover:nth-child(5){
+ color: rgb(235, 235, 6);
+ background-color: transparent;
+}
+.buttons-section .container .one a:nth-child(6){
+    background-color: rgb(236, 20, 20);
+border: 1px solid rgb(236, 20, 20);
+}
+.buttons-section .container .one a:hover:nth-child(6){
+background-color: transparent;
+color: rgb(236, 20, 20);
+}
+.buttons-section .container .one a:nth-child(7){
+    background-color:rgb(245, 244, 242);
+border: 1px solid  rgb(245, 244, 242);
+text-decoration: underline;
+color: black;
+}
+.buttons-section .container .one a:hover:nth-child(7){
+background-color: transparent;
+}
+.buttons-section .container .one a:nth-child(8){
+    background-color:rgb(245, 244, 242);
+    color: rgb(71, 170, 236);
+cursor: not-allowed;
+}
+.buttons-section .container .two{
+    /* max-width: 850px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons-section .container .two .first{
+    display: grid; 
+    gap: 13px;
+     grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    }
+.buttons-section .container .two .second{
+    display: grid; 
+gap: 13px;
+      grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+}
+.buttons-section .container .two .second a{
+border-radius: 3px;
+}
+.buttons-section .container .two .first a:nth-child(1){
+    border: 1px solid rgb(243, 239, 239);
+    color: black;
+}
+.buttons-section .container .two .first a:hover:nth-child(1){
+    background-color:  rgb(243, 239, 239);
+}
+.buttons-section .container .two .first a:nth-child(2){
+border: 1px solid rgb(255, 166, 0);
+color: rgb(255, 166, 0);
+}
+.buttons-section .container .two .first a:hover:nth-child(2){
+background-color :rgb(255, 166, 0);
+color: white;
+    }
+.buttons-section .container .two .first a:nth-child(3){
+    border: 1px solid rgb(0, 140, 255);
+    color: rgb(0, 140, 255);
+}
+.buttons-section .container .two .first a:hover:nth-child(3){
+background-color:  rgb(0, 140, 255);
+    color: white;
+}
+.buttons-section .container .two .first a:nth-child(4){
+    border: 1px solid rgb(0, 204, 255);
+    color: rgb(79, 212, 245);
+    }
+    .buttons-section .container .two .first a:hover:nth-child(4){
+        background-color:  rgb(0, 204, 255);
+        color: white;
+        }
+    .buttons-section .container .two .first a:nth-child(5){
+        border: 1px solid rgb(255, 238, 0);
+        color: rgb(255, 251, 0);
+                }
+                .buttons-section .container .two .first a:hover:nth-child(5){
+                    background-color:  rgb(255, 238, 0);
+                    color:white;
+                            }
+        .buttons-section .container .two .first a:nth-child(6){
+            border: 1px solid rgb(236, 20, 20);
+            color: rgb(236, 20, 20);
+            }
+            .buttons-section .container .two .first a:hover:nth-child(6){
+                   background-color: rgb(236, 20, 20);
+                color: white;
+                }
+            .buttons-section .container .two .first a:nth-child(7){
+                border: 1px solid rgb(226, 223, 223);
+                color: rgb(0, 0, 0);
+                text-decoration: underline;
+                }
+                .buttons-section .container .two .first a:hover:nth-child(7){
+                    background-color:  rgb(226, 223, 223);
+                    color: black;
+                    }
+            .buttons-section .container .two .first a:nth-child(8){
+                border: 1px solid rgb(233, 233, 230);
+                background-color: rgb(233, 233, 230);
+                color: rgb(71, 170, 236);
+
+                cursor: not-allowed;
+                                }
+        .buttons-section .container .two .first a:hover:nth-child(8){
+                                    cursor: not-allowed;
+                                                    }
+                                 .buttons-section .container .two .second a:nth-child(1){
+                                    background-color:  rgb(243, 240, 240);
+                                    color: black;
+                                    border: 1px solid  rgb(243, 240, 240);
+                                }
+                                
+                                .buttons-section .container .two .second a:hover:nth-child(1){
+                                    background-color:transparent;
+                                    color: black;
+                                }
+                                .buttons-section .container .two .second a:nth-child(2){
+                               background-color:   rgb(243, 161, 9);
+                                color: rgb(255, 255, 255);
+                                border: 1px solid   rgb(243, 161, 9);
+                                }
+                                .buttons-section .container .two .second a:hover:nth-child(2){
+                                    color:  rgb(243, 161, 9);
+                                     background-color:transparent;
+                                     }
+                                .buttons-section .container .two .second a:nth-child(3){
+                                   background-color:  rgb(0, 140, 255);
+                                    color: white;
+                                    border:1px solid rgb(0, 140, 255);
+                                }
+                                .buttons-section .container .two .second a:hover:nth-child(3){
+                                    background-color: transparent;
+                                     color: rgb(0, 140, 255);
+                                 }
+                                .buttons-section .container .two .second a:nth-child(4){
+                                    background-color:  rgb(0, 204, 255);
+                                    color: rgb(255, 255, 255);
+                                    border:1px solid rgb(0, 204, 255);
+                                }
+                                .buttons-section .container .two .second a:hover:nth-child(4){
+                                    background-color:  transparent;
+                                    color: rgb(0, 204, 255);
+                                }
+                                    .buttons-section .container .two .second a:nth-child(5){
+                                       background-color:  rgb(255, 238, 0);
+                                        color: rgb(255, 255, 255);
+                                        border:1px solid rgb(255, 238, 0);
+                                    }
+                                    .buttons-section .container .two .second a:hover:nth-child(5){
+                                        background-color:  transparent;
+                                         color:rgb(255, 238, 0);;
+                                     }
+                                        .buttons-section .container .two .second a:nth-child(6){
+                                            background-color: rgb(236, 20, 20);
+                                            color: rgb(255, 255, 255);
+                                            border:1px solid  rgb(236, 20, 20);
+                                            }
+                                            .buttons-section .container .two .second a:hover:nth-child(6){
+                                                background-color:transparent;
+                                                color: rgb(236, 20, 20);
+                                                }
+                                            .buttons-section .container .two .second a:nth-child(7){
+                                                background-color:  rgb(240, 236, 236);
+                                                color: rgb(0, 0, 0);
+                                                border: 1px solid  rgb(240, 236, 236);
+                                                text-decoration: underline;
+                                                }
+                                                .buttons-section .container .two .second a:hover:nth-child(7){
+                                                    background-color:  transparent;
+                                                    }
+                                            .buttons-section .container .two .second a:nth-child(8){
+                                               background-color:  rgb(233, 233, 230);
+                                                color: rgb(71, 170, 236);
+                                                cursor: not-allowed;
+                                                border: 1px solid rgb(233, 233, 230);
+                                                                }
+.buttons-section .container .three{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons-section .container .three .first{
+    display:grid;
+    gap: 13px;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.buttons-section .container .three .second{
+    display:grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+gap: 13px;
+}
+.buttons-section .container .three .first a {
+border-radius: 3px;
+}
+.buttons-section .container .three .second a{
+    border-radius: 20px;
+}
+.buttons-section .container .three .first a:nth-child(1){
+    border: 1px solid rgb(233, 233, 230);
+    background-color: transparent;
+    color: black;
+}
+.buttons-section .container .three .first a:hover:nth-child(1){
+    background-color: rgb(233, 233, 230);
+}
+.buttons-section .container .three .first a:nth-child(2){
+    border: 1px solid   rgb(243, 161, 9);
+    background-color: transparent;
+    color:   rgb(243, 161, 9);
+}
+.buttons-section .container .three .first a:hover:nth-child(2){
+    background-color:   rgb(243, 161, 9);
+color: white;
+}
+.buttons-section .container .three .first a:nth-child(3){
+    background-color:  transparent;
+    color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 140, 255);
+}
+.buttons-section .container .three .first a:hover:nth-child(3){
+    background-color:  rgb(0, 140, 255);
+    color: white;
+}
+.buttons-section .container .three .first a:nth-child(4){
+    border: 1px solid rgb(0, 204, 255) ;
+    background-color: transparent;
+    color: rgb(0, 204, 255);
+}
+.buttons-section .container .three .first a:hover:nth-child(4){
+background-color:rgb(0, 204, 255) ;
+color:white ;
+}
+.buttons-section .container .three .first a:nth-child(5){
+    color:rgb(255, 238, 0);
+    border:1px solid rgb(255, 238, 0);
+}
+.buttons-section .container .three .first a:hover:nth-child(5){
+    background-color: rgb(255, 238, 0);
+    color: white;
+}
+.buttons-section .container .three .first a:nth-child(6){
+    color: rgb(236, 20, 20);
+border: 1px solid rgb(236, 20, 20);
+}
+.buttons-section .container .three .first a:hover:nth-child(6){
+    color: white;
+    background-color: rgb(236, 20, 20);
+}
+.buttons-section .container .three .first a:nth-child(7){
+    border: 1px solid rgb(233, 233, 230)  ;
+    color: black;
+    text-decoration: underline  ;
+}
+.buttons-section .container .three .first a:hover:nth-child(7){
+color: black;
+background-color: rgb(233, 233, 230) ;
+}
+.buttons-section .container .three .first a:nth-child(8){
+    border:1px solid  rgb(233, 233, 230);
+    color: rgb(71, 170, 236);
+    cursor: not-allowed;
+background-color: rgb(233, 233, 230);
+}
+.buttons-section .container .three .second a:nth-child(1){
+border: 1px solid  rgb(233, 233, 230);
+color: black;
+background-color: rgb(233, 233, 230);
+}
+.buttons-section .container .three .second a:hover:nth-child(1){
+    background-color: transparent;
+    color: black;
+    }
+    .buttons-section .container .three .second a:nth-child(2){
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    }
+    .buttons-section .container .three .second a:hover:nth-child(2){
+    background-color: transparent;
+    color:orange;
+    }
+    .buttons-section .container .three .second a:nth-child(3){
+               background-color: rgb(0, 140, 255); 
+               color: white;
+               border: 1px solid rgb(0, 140, 255);
+    }
+    .buttons-section .container .three .second a:hover:nth-child(3){
+        background-color: transparent;
+        color: rgb(0, 140, 255);;
+        }
+        .buttons-section .container .three .second a:nth-child(4){
+            background-color:rgb(0, 204, 255); 
+            border: 1px solid rgb(0, 204, 255);
+        }
+        .buttons-section .container .three .second a:hover:nth-child(4){
+            background-color: transparent;
+            color: rgb(0, 204, 255);;
+            }
+            .buttons-section .container .three .second a:nth-child(5){
+                background-color:rgb(255, 238, 0);
+                border: 1px solid rgb(255, 238, 0);
+            }
+            .buttons-section .container .three .second a:hover:nth-child(5){
+                background-color: transparent;
+                color: rgb(255, 238, 0);
+                }
+            .buttons-section .container .three .second a:nth-child(6){
+                background-color:rgb(236, 20, 20);
+                border: 1px solid rgb(236, 20, 20);
+            }
+            .buttons-section .container .three .second a:hover:nth-child(6){
+                background-color: transparent;
+                color: rgb(236, 20, 20);
+                }
+            .buttons-section .container .three .second a:nth-child(7){
+                background-color: rgb(233, 233, 230);
+                border: 1px solid  rgb(233, 233, 230);
+                color: black;
+            }
+            .buttons-section .container .three .second a:hover:nth-child(7){
+                background-color: transparent;
+                color:black;
+                }
+            .buttons-section .container .three .second a:nth-child(8){
+                background-color: rgb(233, 233, 230);
+                border: 1px solid  rgb(233, 233, 230);
+                color: rgb(71, 170, 236);
+
+              cursor: not-allowed;       
+            }
+.buttons-section .container .four{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons-section .container .four .first{
+    display: grid;
+    gap: 13px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.buttons-section .container .four .first a{
+    border-radius: 20px;
+}
+.buttons-section .container .four .second{
+gap: 10px;
+display: grid;
+grid-template-columns:1fr  1fr 1fr 1fr 1fr 1fr;
+}
+.buttons-section .container .four .second a{
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+}
+.buttons-section .container .four a{
+    padding: 13px 28px;
+display: flex;
+align-items: center;
+}
+.buttons-section .container .four .first a:nth-child(1){
+    color: black;
+    border: 1px solid rgb(233, 233, 230);
+}
+.buttons-section .container .four .first a:hover:nth-child(1){
+    color: black;
+background-color: rgb(233, 233, 230);
+}
+.buttons-section .container .four .first a:nth-child(2){
+    color: orange;
+    border: 1px solid orange;
+}
+.buttons-section .container .four .first a:hover:nth-child(2){
+    color: white;
+background-color: orange;
+}
+.buttons-section .container .four .first a:nth-child(3){
+    color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 140, 255);
+}
+.buttons-section .container .four .first a:hover:nth-child(3){
+    color: white;
+    background-color: rgb(0, 140, 255); 
+}
+.buttons-section .container .four .first a:nth-child(4){
+    color: rgb(0, 204, 255);
+    border: 1px solid rgb(0, 204, 255);
+}
+.buttons-section .container .four .first a:hover:nth-child(4){
+    color: white;
+background-color: orange;
+background-color:rgb(0, 204, 255); 
+}
+.buttons-section .container .four .first a:nth-child(5){
+    color: rgb(255, 238, 0);
+border:1px solid  rgb(255, 238, 0);
+}
+.buttons-section .container .four .first a:hover:nth-child(5){
+    color: white;
+background-color: rgb(255, 238, 0);
+}
+.buttons-section .container .four .first a:nth-child(6){
+    color: rgb(236, 20, 20);
+border:1px solid rgb(236, 20, 20);
+}
+.buttons-section .container .four .first a:hover:nth-child(6){
+    color: white;
+background-color:rgb(236, 20, 20);
+}
+.buttons-section .container .four .first a:nth-child(7){
+    color:black;
+border:1px solid rgb(233, 233, 230);
+}
+.buttons-section .container .four .first a:hover:nth-child(7){
+    color: black;
+background-color:rgb(233, 233, 230);
+}
+.buttons-section .container .four .first a:nth-child(8){
+    color: rgb(71, 170, 236);
+
+border:1px solid rgb(233, 233, 230);
+background-color:rgb(233, 233, 230) ;
+}
+.buttons-section .container .four .first a:hover:nth-child(8){
+cursor: not-allowed;
+}
+.buttons-section .container .four .second a:nth-child(1){
+    color:black;
+border:1px solid rgb(233, 233, 230);
+background-color:rgb(233, 233, 230) ;
+display: flex;
+gap: 15px;
+}
+.buttons-section .container .four .second a:hover:nth-child(1){
+background-color:transparent;
+}
+.buttons-section .container .four .second a:nth-child(2){
+    color:white;
+border:1px solid orange;
+background-color:orange ;
+display: flex;
+gap: 15px;
+}
+.buttons-section .container .four .second a:hover:nth-child(2){
+background-color:transparent;
+color: orange;
+}
+.buttons-section .container .four .second a:nth-child(3){
+    color:white;
+border:1px solid rgb(0, 140, 255);
+background-color:rgb(0, 140, 255) ;
+}
+.buttons-section .container .four .second a:hover:nth-child(3){
+background-color:transparent;
+color: rgb(0, 140, 255);
+}
+.buttons-section .container .four .second a:nth-child(4){
+    color:white;
+border:1px solid  rgb(0, 204, 255);
+background-color:  rgb(0, 204, 255) ;
+display: flex;
+gap: 15px;
+}
+.buttons-section .container .four .second a:hover:nth-child(4){
+background-color:transparent;
+color:   rgb(0, 204, 255);
+}
+.buttons-section .container .four .second a:nth-child(5){
+    color:white;
+border:1px solid  rgb(255, 238, 0);
+background-color:rgb(255, 238, 0);
+}
+.buttons-section .container .four .second a:hover:nth-child(5){
+background-color:transparent;
+color:   rgb(255, 238, 0);
+}
+.buttons-section .container .four .second a:nth-child(6){
+    color:white;
+border:1px solid rgb(236, 20, 20) ;
+background-color:rgb(236, 20, 20)  ;
+display: flex;
+gap: 15px;}
+.buttons-section .container .four .second a:hover:nth-child(6){
+background-color:transparent;
+color: rgb(236, 20, 20);
+}
+.buttons-section .container .five{
+gap: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.buttons-section .container .five a{
+    padding: 12px 28px;
+border-radius: 20px ;
+display: flex;
+gap: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.buttons-section .container .five a:nth-child(1){
+    border: 1px solid rgb(233, 233, 230);
+    color: black;
+}
+.buttons-section .container .five a:hover:nth-child(1){
+background-color:  rgb(233, 233, 230);
+    color: black;
+}
+.buttons-section .container .five a:nth-child(1){
+    border: 1px solid rgb(233, 233, 230);
+    color: black;
+}
+.buttons-section .container .five a:hover:nth-child(1){
+background-color:  rgb(233, 233, 230);
+    color: black;
+}
+.buttons-section .container .five a:nth-child(2){
+    border: 1px solid orange;
+    color: orange;
+}
+.buttons-section .container .five a:hover:nth-child(2){
+background-color:  orange;
+    color: white;
+}
+.buttons-section .container .five a:nth-child(3){
+    border: 1px solid rgb(0, 140, 255) ;
+    color: rgb(0, 140, 255) ;
+}
+.buttons-section .container .five a:hover:nth-child(3){
+background-color:  rgb(0, 140, 255) ;
+    color: white;
+}
+.buttons-section .container .five a:nth-child(4){
+    border: 1px solid   rgb(0, 204, 255);
+    color: rgb(0, 204, 255);
+}
+.buttons-section .container .five a:hover:nth-child(4){
+background-color:  rgb(0, 204, 255);
+    color: white;
+}
+.buttons-section .container .five a:nth-child(5){
+    border: 1px solid  rgb(255, 238, 0);
+    color: rgb(255, 238, 0);
+}
+.buttons-section .container .five a:hover:nth-child(5){
+background-color:  rgb(255, 238, 0);
+    color: white;
+}
+.buttons-section .container .five a:nth-child(6){
+    border: 1px solid   rgb(236, 20, 20);
+    color: rgb(236, 20, 20);
+}
+.buttons-section .container .five a:hover:nth-child(6){
+background-color: rgb(236, 20, 20);
+    color: white;
+}
+.buttons-section .container .six {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.buttons-section .container .six .first {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.buttons-section .container .six .second {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.buttons-section .container .six .first a:nth-child(1){
+padding: 18px 45px;
+background-color: orange;
+border: 1px solid orange;
+}
+.buttons-section .container .six .first a:hover:nth-child(1){
+    color: orange;
+    background-color: transparent;
+    }
+.buttons-section .container .six .first a:nth-child(2){
+    padding: 16px 35px;
+border: 1px solid rgb(0, 204, 255);
+    background-color: rgb(0, 204, 255);
+    }
+    .buttons-section .container .six .first a:hover:nth-child(2){
+    background-color: transparent;
+        color: rgb(0, 204, 255);
+        }
+    .buttons-section .container .six .first a:nth-child(3){
+        padding: 13px 30px;
+border: 1px solid orange;
+        background-color: orange;
+        }
+        .buttons-section .container .six .first a:hover:nth-child(3){
+    color: orange;
+            background-color: transparent;
+            }
+        .buttons-section .container .six .first a:nth-child(4){
+            padding: 10px 27px;
+            background-color: rgb(0, 204, 255);
+            border: 1px solid rgb(0, 204, 255);
+            }
+            .buttons-section .container .six .first a:hover:nth-child(4){
+                background-color: transparent;
+            color: rgb(0, 204, 255);
+                }
+            .buttons-section .container .six .first a:nth-child(5){
+                padding: 5px 23px;
+                background-color: orange;
+                border: 1px solid orange;
+            }
+            .buttons-section .container .six .first a:hover:nth-child(5){
+                color: orange;
+                background-color:transparent;
+            }
+                .buttons-section .container .six .second a:nth-child(1){
+                    padding: 18px 45px;
+                    border: 1px solid orange;
+                     color: orange;
+                }
+                .buttons-section .container .six .second a:hover:nth-child(1){
+                    color:white;
+                     background-color: orange;
+                }
+                    .buttons-section .container .six .second a:nth-child(2){
+                        padding: 16px 35px;
+                        color:rgb(0, 204, 255) ;
+                        border: 1px solid rgb(0, 204, 255);
+                        }
+                        .buttons-section .container .six .second a:hover:nth-child(2){
+                            color:white;
+                            background-color:  rgb(0, 204, 255);
+                            }
+                        .buttons-section .container .six .second a:nth-child(3){
+                            padding: 13px 30px;
+                            border: 1px solid orange;
+                            color:orange;
+                            }
+                        .buttons-section .container .six .second a:hover:nth-child(3){
+                            background-color: orange;
+                            color:white;
+                            }
+                            .buttons-section .container .six .second a:nth-child(4){
+                                padding: 10px 27px;
+                                border: 1px solid  rgb(0, 204, 255);
+                            color: rgb(0, 204, 255);
+                                }
+                                .buttons-section .container .six .second a:hover:nth-child(4){
+                                color:white;
+                                background-color: rgb(0, 204, 255);
+                                    }
+                                .buttons-section .container .six .second a:nth-child(5){
+                                    padding: 5px 23px;
+                                    color: orange;
+                                    border:1px solid  orange;
+                                    }
+                                    .buttons-section .container .six .second a:hover:nth-child(5){
+                                        color: white;
+                                        background-color: orange;
+                                        }
+
+
+
+.alinged-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alinged-section .upper{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gainsboro;
+    padding: 50px 0px;
+    gap: 40px;
+    max-width: 1200px;
+}
+.alinged-section .upper .adding{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alinged-section .upper .low{
+display: flex;
+align-items:center;
+gap: 30px;
+}
+.alinged-section .upper .low .right p{
+line-height: 23px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: grey;
+}
+.alinged-section .lower{
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 50px 0px;
+    max-width: 1200px;
+  
+}
+.alinged-section .lower .adding{
+    text-align: right;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alinged-section .lower .low{
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    text-align: right;
+}
+.alinged-section .lower .low .left p{
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    }
+
+
+
+
+
+
+
+
+.defination-section{
+        padding:  20px;
+display: flex;
+justify-content: center;
+}
+.defination-section .container{
+display: flex;
+flex-direction: column;
+max-width: 1200px;
+}
+
+.defination-section .container .upper{
+    display: flex;
+    padding: 50px 0px 70px 0px;
+    flex-direction: column;
+    gap: 40px;
+    border-bottom: 1px solid gainsboro;
+}
+.defination-section .container .upper .hading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.defination-section .container .upper .low h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.defination-section .container .upper .low{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.defination-section .container .upper .box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.defination-section .container .upper p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; color: gray;
+    line-height: 23px;
+}
+.defination-section .container .lower{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px solid gainsboro;
+    gap: 25px;
+}
+.defination-section .container .lower h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.defination-section .container .lower .para p{
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 23px;
+    max-width: 1150px;
+    padding: 40px 30px;
+    border-left: 2px solid orange;
+}
+
+
+
+
+
+
+
+.table-section{
+    padding: 50px 20px;
+justify-content: center;
+align-items: center;
+}
+.table-section h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-section .container{
+    max-width: 1200px;
+    margin: auto;
+    padding:  0px 0px 100px 0px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.table-section .container .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+.table-section .container .box .countries{
+    display: flex;
+    gap: 20px;
+}
+
+.table-section .container .box .visits{
+    padding: 0px 0px 0px 20px;
+}
+.table-section .container .box .number{
+    padding: 0px 0px 0px 20px;
+}
+
+.table-section .container .box .countries span{
+    font-size: 20px;
+    color: black;
+}
+.table-section .container .box2 .color-div{
+    height: 5px ;
+    max-width: 220px;
+    background-color: rgb(2, 138, 8);
+}
+.table-section .container .box3 .color-div{
+    height: 5px ;
+    max-width: 90px;
+    background-color: rgb(35, 214, 44);
+}
+.table-section .container .box4 .color-div{
+    height: 5px ;
+    max-width: 200px;
+    background-color: rgb(230, 226, 18);
+}
+.table-section .container .box5 .color-div{
+    height: 5px ;
+    max-width: 40px;
+    background-color: rgb(211, 126, 15);
+}
+.table-section .container .box6 .color-div{
+    height: 5px ;
+    max-width: 150px;
+    background-color: rgb(87, 13, 207);
+}
+.table-section .container .box7 .color-div{
+    height: 5px ;
+    max-width: 200px;
+    background-color: rgb(3, 24, 4);
+}
+.table-section .container .box8 .color-div{
+    height: 5px ;
+    max-width: 70px;
+    background-color: rgb(211, 20, 170);
+}
+.table-section .container .box9 .color-div{
+    height: 5px ;
+    max-width: 120px;
+    background-color: rgb(255, 2, 2);
+}
+
+.picture-section{
+    padding:20px;
+}
+.picture-section .container{
+max-width: 1200px;
+margin: auto;
+padding: 50px 0px;
+border-bottom: 1px solid gainsboro;
+}
+.picture-section .container .hading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.picture-section .container .upper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.picture-section .container .upper .pics {
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+}
+.picture-section .container .upper .pic-1{
+    background-image: url(pic-1.webp);
+}
+.picture-section .container .upper .pic-2{
+    background-image: url(pic-2.webp);
+}
+.picture-section .container .upper .pic-3{
+    background-image: url(pic-3.webp);
+}
+
+
+.picture-section .container .center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.picture-section .container .center .pics {
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
+.picture-section .container .center .pic-1{
+    background-image: url(pic-4.webp);
+}
+.picture-section .container .center .pic-2{
+    background-image: url(pic-5.webp);
+}
+.picture-section .container .lower .pics {
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+}
+.picture-section .container .lower .pic-1{
+    background-image: url(pic-6.webp);
+}
+.picture-section .container .lower .pic-2{
+    background-image: url(pic-7.webp);
+}
+.picture-section .container .lower .pic-3{
+    background-image: url(pic-8.webp);
+}
+.picture-section .container .lower {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+.typography{
+    padding: 20px;
+}
+.typography .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid gainsboro;
+    padding: 50px 0px;
+}
+.typography .container ul i{
+color: orange;
+font-size: 18px;
+font-weight: 900;
+}
+.typography .container .box h1{
+    font-size: 35px;}
+    .typography .container .box h2{
+        font-size: 32px;}
+        .typography .container .box h3{
+            font-size: 30px;}
+            .typography .container .box h4{
+                font-size: 25px;}
+                .typography .container .box h5{
+                    font-size: 20px;}
+                    .typography .container .box h6{
+                        font-size: 15px;}
+.typography .container ul .first-li{
+margin-left: 15%;
+}
+.typography .container ul .second-li{
+    margin-left: 30%;
+    max-width:200px ;
+line-height: 22px; 
+}
+.typography .container ul{
+    list-style: none;
+text-transform: capitalize;
+flex-direction: column;
+font-size: 13px;
+color: gray;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.typography .container .box{
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.typography .container .box .hading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: gray;
+}
+.typography .container .box .typo{
+    font-size: 23px;
+}
+.typography .container ul li{
+    display: flex;
+    gap: 15px;
+}
+.typography .container ul li span{
+color: orange;
+list-style: none;
+font-weight: 900;
+}
+
+
+
+
+
+.form-section{
+    padding: 50px 20px;
+}
+.form-section .container{
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+padding: 50px  0px;
+border-bottom: 1px solid gainsboro;
+}
+.form-section .container .left h2{
+padding: 20px 0px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.form-section .container .right h2{
+padding: 20px 0px;
+}
+.form-section .container .left{
+    display: flex;
+    flex-direction: column;
+gap: 7px;
+}
+.form-section .container .left .div-all{
+background-color: #f9f9ff;
+width: 800px;
+border:none;
+display: flex;
+align-items: center;
+padding: 0px 15px;
+height: 40px;
+gap: 10px;
+}
+.form-section .container .left .div-all input{
+    width: 100%;
+    height: 100%;
+background-color: #f9f9ff;
+    border: none;
+}
+.form-section .container .left .div-all input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.form-section .container .left .div-all select{
+background-color: #f9f9ff;
+height: 100%;
+border: none;
+    width: 100%;
+}
+.form-section .container .left  .div-7{
+    height: 100px;
+}
+.form-section .container .right .switches span{
+    color: gray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.form-section .container .right .switches h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.form-section .container .right {
+    display: grid;
+    width: 270px;
+    grid-template-columns: 1fr;
+    }
+.form-section .container .right .switches{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 20px;
+}
+.form-section .container .right .switches .first-switch{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .switches .first-switch .button {
+    width: 35px ;
+    height: 20px;
+    border-radius :200px;;
+    padding: 0px 15px;
+    background-color:white;
+position: relative;
+}
+.form-section .container .right .switches .first-switch .button::before{
+    height: 16px;
+    width: 15px;
+    position: absolute;
+    content: '';
+    left: 1px;
+    background-color: white;
+    top: 1px;
+    border-radius:50%;
+    box-shadow: 0px 2px 2px gray;
+    transition: .2s;
+}
+.form-section .container .right .switches .first-switch input{
+    display: none;
+}
+.form-section .container .right .switches .first-switch input:checked + .button{
+    transition: .3s;
+    background-color:orange;
+}
+.form-section .container .right .switches .first-switch  input:checked + .button::before{
+    transform:translatex(16px);
+}
+.form-section .container .right .switches .second-switch{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .switches .second-switch .button2 {
+    width: 35px ;
+    height: 20px;
+    border-radius :200px;;
+    padding: 0px 15px;
+    background-color:orange;
+position: relative;
+}
+.form-section .container .right .switches .second-switch .button2::before{
+    height: 16px;
+    width: 15px;
+    position: absolute;
+    content: '';
+     right: 1px;
+    background-color: white;
+    top: 1px;
+    border-radius:50%;
+    box-shadow: 0px 2px 2px gray;
+    transition: .2s;
+}
+.form-section .container .right .switches .second-switch input{
+    display: none;
+}
+    .form-section .container .right .switches .second-switch input:checked + .button2{
+    transition: .3s;
+    background-color:white;
+}
+.form-section .container .right .switches .second-switch  input:checked + .button2::before{
+    transform:translatex(-16px);
+}
+.form-section .container .right .switches .third-switch{
+    display: flex;
+    justify-content: space-between;
+    /* gap:; */
+}
+.form-section .container .right .switches .third-switch .button3 {
+    width: 35px ;
+    height: 20px;
+    border-radius :200px;;
+    padding: 0px 15px;
+    background-color:rgb(36, 138, 163);
+position: relative;
+}
+.form-section .container .right .switches .third-switch .button3::before{
+    height: 16px;
+    width: 15px;
+    position: absolute;
+    content: '';
+    right: 1px;
+    background-color: white;
+    top: 1px;
+    border-radius:50%;
+    box-shadow: 0px 2px 2px gray;
+    transition: .2s;
+}
+.form-section .container .right .switches .third-switch input{
+    display: none;
+}
+.form-section .container .right .switches .third-switch input:checked + .button3{
+    transition: .3s;
+background-color: white;
+}
+.form-section .container .right .switches .third-switch  input:checked + .button3::before{
+    transform:translatex(-16px);
+}
+.form-section .container .right .selectboxes {
+padding-bottom: 20px;
+}
+.form-section .container .right .selectboxes h2{
+ font-family: Arial, Helvetica, sans-serif;
+ text-transform: capitalize;
+}
+.form-section .container .right .selectboxes select {
+width: 80px;
+border: none;
+}
+.form-section .container .right .selectboxes select option {
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.form-section .container .right .checkbox h2 {
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.form-section .container .right .checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.form-section .container .right .checkbox .inp{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .checkbox .inp input{
+    padding: 20px 13px;
+    width: 15px;
+    height: 15px;
+accent-color: rgb(247, 70, 99);
+}
+.form-section .container .right .checkbox span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.form-section .container .right .checkbox.inp-4 input{
+    cursor: not-allowed;
+}
+.form-section .container .right .checkbox .inp-5 input{
+    cursor: not-allowed;
+}
+.form-section .container .right .radios h2{
+    font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.form-section .container .right .radios{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-section .container .right .radios .inp{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .radios .inp input{
+    padding: 20px 13px;
+accent-color: rgb(247, 70, 99);
+    width: 15px;
+    height: 15px;
+}
+.form-section .container .right .radios span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.form-section .container .right .radios .inp-4 input{
+    cursor: not-allowed;
+}
+.form-section .container .right .radios .inp-5 input{
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+    @media screen and (max-width:1210px) {
+    .alinged-section .upper .low .left img{
+        width: 200px;
+        height:150px;
+    }
+    .alinged-section .upper .low {
+        align-items:flex-start;
+    }
+    .alinged-section .lower .low .right img{
+        width: 200px;
+        height:150px;
+    }
+    .alinged-section .lower .low {
+        align-items:flex-start;
+    }
+
+    
+.map-section .container{
+    max-width: 1000px;
+}
+.map-section .container .lower .double{
+    gap: 40px;
+}
+.map-section .container .lower .second input{
+    width: 330px;
+}
+.map-section .container .lower .third input{
+    width: 330px;
+}
+    }
+
+
+
+    @media screen and (max-width:1150px) {
+
+        .form-section .container .left .div-all{
+           max-width: 650px;
+        }
+        .b-section-2 .box{
+            width: 300px;
+        }
+        .big-section{
+            width: 100%;
+        }
+        .big-section .container .left  .tea img{
+            width: 420px;
+        }
+        .big-section .container .left .tea .rigt p{
+            max-width: 400px;
+        }
+    }
+@media screen and (max-width:1011px) {
+
+    .buttons-section .container .one{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .two .first{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .two .second{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .three .first{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .three .second{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .first{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .second{
+        grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+    }
+    .buttons-section .container .five {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .alinged-section .upper .low .left img{
+        width: 140px;
+        height:100px;
+    }
+    .alinged-section .lower .low .right img{
+        width: 140px;
+        height:100px;
+    }
+
+    
+
+.typography .container{
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.form-section .container .left .div-all{
+    width: 550px;
+}
+.big-section .container{
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+align-items:center;
+justify-content: center;
+}
+.big-section .container .left .imgg{
+    width: 550px;
+}
+.big-section .container .left .tea .lft .jail{
+    max-width: 150px;
+}
+.big-section .container .right{
+    width: 600px;
+}
+.map-section .container{
+    max-width: 800px;
+}
+.map-section .container .lower{
+flex-direction: column;
+gap: 50px;
+}
+.map-section .container .lower .double{
+    width: 100%;
+    gap: 20px;
+}
+.map-section .container .lower .double .second{
+    width: 50%;
+}
+.map-section .container .lower .double .second input{
+    width: 100%;
+}
+.map-section .container .lower .double .third{
+    width: 50%;
+}
+.map-section .container .lower .double .third input{
+    width: 100%;
+}}
+@media screen and (max-width:900px) {
+    .form-section .container .left .div-all{
+        width: 400px;
+    }
+    .b-section-2 .container{
+        width: 100%;
+       flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .b-section-2 .container .box{
+        width: 400px;
+
+    }
+    .map-section .container{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width:770px){
+    .buttons-section {
+        padding: 50px 35px;
+        align-items: center;
+    }
+.buttons-section .container{
+max-width: 500px;
+
+}
+    .buttons-section .container .one{
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .two .first{
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .two .second{
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .three .first{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .three .second{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .first{
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .second{
+        grid-template-columns: 1fr  1fr 1fr 1fr;
+    }
+    .buttons-section .container .five {
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+.buttons-section .container .six .first {
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr  1fr;
+}
+.buttons-section .container .six .first a:nth-child(1) {
+    padding: 18px 20px;
+}
+.buttons-section .container .six .second {
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr  1fr;
+}
+.buttons-section .container .six .second a:nth-child(1) {
+    padding: 18px 20px;
+}
+
+
+
+
+    .alinged-section .upper{
+        max-width: 500px;
+    }
+    .alinged-section .upper .low{
+        flex-direction: column;
+    }
+    .alinged-section .upper .low .left img{
+        width: 200px;
+        height: 150px;
+    }
+    .alinged-section .lower{
+        max-width: 500px;
+    }
+    .alinged-section .lower .low {
+        flex-direction: column;
+        width: 100%;
+    }
+    .alinged-section .lower .low .right {
+        width: 100%;
+    }
+    .alinged-section .lower .low .right img{
+        width: 200px;
+        height: 150px;
+    }
+    .defination-section .container{
+        max-width: 500px;
+    }
+.defination-section .container .upper .low{
+grid-template-columns: 1fr;
+}
+.picture-section .container{
+    max-width: 500px;
+}
+.picture-section .container .upper{
+    grid-template-columns: 1fr;
+}
+.picture-section .container .center{
+    grid-template-columns: 1fr;
+}
+.picture-section .container .lower{
+    grid-template-columns: 1fr;
+}
+
+.table-section .container{
+    max-width: 500px;
+    overflow: hidden;
+    overflow-x:scroll ;
+}
+.table-section .container .box{
+width: 650px;
+}
+
+.typography{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typography .container{
+    width: 80%;
+    grid-template-columns: 1fr;
+}
+.form-section .container .left{
+    width: 100%;
+    /* max-width: 500px; */
+}
+.form-section .container .left .div-all{
+    width: 100%;
+}
+.form-section .container .right{
+    width: 100%;
+    /* max-width: 500px; */
+    grid-template-columns: 1fr 1fr ;
+    gap: 5px;
+}
+.form-section .container .right .switches .first-switch{
+    gap: 60px;
+}
+.form-section .container .right .switches .second-switch{
+    gap: 20px;
+}
+.form-section .container .right .switches .third-switch{
+    gap: 22px;
+}
+.form-section .container .right .checkbox .inp{
+gap: 50px;
+}
+.form-section .container .right .radios .inp{
+gap: 50px;
+}
+
+.form-section .container{
+    max-width: 500px;
+    flex-direction: column;
+}
+.big-section .container .left .tea{
+    display: flex;
+    flex-direction: column;
+}
+.big-section .container .left .tea .lft ul{
+text-align: left;
+justify-content: flex-start;
+}
+.big-section .container .left .tea .lft .jail{
+    text-align: left;
+    max-width: 100%;
+}
+
+
+.b-section-1 .container h2{
+    font-size: 50px;
+}
+.b-section-1 .container p{
+    font-size: 15px;
+}
+.b-section-1 .container a{
+    padding: 15px 40px;
+}
+.big-section .container{
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.big-section .container .left .frst .saif{
+    flex-direction: column;
+}
+.big-section .container .left .frst .lft ul .icc {
+    justify-content: flex-start;
+    text-align: start;
+}
+.big-section .container .left .frst .lft ul {
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.big-section .container .left .flower .imm .img{
+height: 200px;
+    width: 100%;
+}
+
+.big-section .container .left  .frst .imggg{
+height: 300px;
+}
+.big-section .container .left .comments .next-post{
+    flex-direction: column;
+    gap: 20px;
+    }
+
+
+
+    .big-section .container .left .comments .reply h3{
+        font-size: 15px;
+    
+    }
+    .big-section .container .left .comments .reply .one .terd p{
+        font-size: 13px;
+        max-width: 200px;
+    }
+    .big-section .container .left .comments .reply .one .terd span{
+        font-size: 12px;
+    }
+
+    .big-section .container .right{
+        max-width: 500px;
+    }
+.big-section .container .left .leave .innpp{
+flex-direction: column;
+display: flex;
+width: 100%;
+}
+.map-section .container {
+    max-width: 500px;
+}
+.map-section .container .lower .double{
+flex-direction: column;
+}
+.map-section .container .lower .double .second{
+    width: 100%;
+}
+.map-section .container .lower .double .third{
+    width: 100%;
+}
+.form-section .container .right .selectboxes select{
+width: 130px;
+}
+}
+
+@media screen and (max-width:600px){
+    .buttons-section .container .six .first {
+        display:grid;
+    grid-template-columns:  1fr 1fr  1fr;
+    }
+    .buttons-section .container .six .first a:nth-child(1) {
+        padding: 18px 20px;
+    }
+    .buttons-section .container .six .second {
+        display:grid;
+    grid-template-columns:  1fr 1fr  1fr;
+    }
+    .buttons-section .container .six .second a:nth-child(1) {
+        padding: 18px 20px;
+    }
+    .buttons-section .container .four .second{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .buttons-section .container .five {
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .table-section .container .box{
+        width: 550px;
+        }
+        
+        .table-section .container .box .countries{
+            width: 150px;
+        }
+        .table-section .container .box .number{
+            width: 80px;
+        }
+        .table-section .container .box .visits{
+            padding: 0px 0px 0px 30px;
+        }
+        .big-section .container .right{
+            width: 100%;
+        }
+.big-section .container .left .tea .imgg{
+    width: 100%;
+}
+.b-section-1 .container h2{
+    font-size: 40px;
+}
+.b-section-1 .container p{
+    font-size: 12px;
+}
+.b-section-1 .container a{
+    padding: 10px 30px;
+}
+.big-section .container .left  .frst .imggg{
+    height: 250px;
+    }
+}
+@media screen and (max-width:510px){
+    .buttons-section {
+        padding: 50px 20px;
+    }
+    .buttons-section .container .one{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .buttons-section .container .two .first{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .buttons-section .container .two .second{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .buttons-section .container .three .first{
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+    .buttons-section .container .three .second{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .first{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .second{
+        grid-template-columns:   1fr 1fr 1fr;
+    }
+    .buttons-section .container .four .second a{
+             gap: 10px;
+    }
+    .buttons-section .container .five {
+        grid-template-columns:   1fr 1fr 1fr;
+    }
+    .buttons-section .container .five a{
+        gap: 10px;}   
+.alinged-section .upper{
+    padding: 50px 0px 50px 0px;
+}
+.alinged-section .lower{
+    padding: 50px 0px 50px 0px;
+}
+
+
+.table-section .container .box{
+    width: 500px;
+    }
+.typography .container{
+width: 100%;
+}
+.form-section .container .right{
+    grid-template-columns: 1fr;
+
+}
+.form-section .container .right .switches .first-switch{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .switches .second-switch{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .switches .third-switch{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .checkbox .inp{
+    display: flex;
+    justify-content: space-between;
+}
+.form-section .container .right .radios .inp{
+display: flex;
+justify-content: space-between;
+}
+.b-section-2 .container .box{
+    width: 100%;
+}
+.big-section .container .left .comments .reply {
+padding: 10px;
+}
+.big-section .container .left .comments .next-post h2{
+    font-size: 15px;
+
+}
+.big-section .container .left .comments .next-post span{
+    font-size: 10px;
+}
+
+}
+@media screen and (max-width:440px){
+    .buttons-section {
+        padding: 30px 5px;
+    }
+    .buttons-section .container .four .second{
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttons-section .container .five {
+        grid-template-columns:  1fr 1fr;
+    }
+    .buttons-section .container .six .first {
+        display:grid;
+    grid-template-columns:  1fr  1fr;
+    }
+    .buttons-section .container .six .second {
+        display:grid;
+    grid-template-columns:  1fr  1fr;
+    } 
+    .table-section .container .box{
+        width: 465px;
+        }  
+        .table-section .container .box .number{
+            width: 50px;
+        }
+        .table-section .container .box .countries{
+            width: 150px;
+            margin-left: -25px;
+        }
+.defination-section .container .lower .para p{
+padding: 0px 0px 0px 20px ;
+}
+.big-section .container .left .comments .reply .one h3 {
+font-size: 12px;
+}
+.big-section .container .left .comments .reply .one .terd span {
+    font-size: 10px;
+    }
+    .big-section .container .left .comments .reply .one .terd p {
+        font-size: 10px;
+        max-width: 150px;
+        top: 40px;
+        }
+    .big-section .container .left .comments .reply .one a {
+        height: 25px;
+        font-size: 10px;
+        width: 50px;
+    }
+    .big-section .container .left .comments .reply .one .terd {
+        gap: 5px;
+
+}
+.big-section .container .left .tea .imgg{
+    max-width: 100%;
+ }
+.big-section .container .left .tea .rigt h2{
+    max-width: 100%;
+}
+.big-section .container .left .tea .rigt p{
+    max-width: 100%;
+}
+}
+@media screen and (max-width:345px){
+    .buttons-section .container .one{
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttons-section .container .two .first{
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttons-section .container .two .second{
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttons-section .container .three .first{
+        grid-template-columns:  1fr 1fr;
+    }
+    .buttons-section .container .three .second{
+        grid-template-columns:  1fr 1fr;
+    }
+    .buttons-section .container .four .first{
+        grid-template-columns:  1fr 1fr;
+    }
+    .alinged-section .upper .low .left img{
+        width: 50%;
+        height:60%;
+    }
+    
+    .alinged-section .lower .low .right img{
+        width: 50%;
+        height:60%;
+    }
+
+  
+
+
+
+
+    .form-section .container .right .switches .first-switch{
+        gap: 70px;
+    }
+    .form-section .container .right .switches .second-switch{
+        gap: 30px;
+    }
+    .form-section .container .right .switches .third-switch{
+        gap: 30px;
+    }
+    .form-section .container .right .checkbox .inp{
+    gap: 60px;
+    }
+    .form-section .container .right .radios .inp{
+    gap: 70px;
+    }
+    .b-section-1 .container h2{
+        font-size: 120%;
+    }
+    .b-section-1 .container a{
+        padding: 3% 5%;
+        font-size: 10px;
+    }
+    .b-section-1 .container p{
+        font-size: 60%;
+    }
+
+    .big-section {
+padding: 5px;
+    }
+.big-section .container .right{
+padding: 0px;
+}
+
+.big-section .container .left .comments .emilly-blunt .fist{
+    padding-left: 10px;
+}
+.big-section .container .left .comments .emilly-blunt .one .enterr{
+gap: 5px;
+}
+
+}
+@media screen and (max-width:280px){
+    .buttons-section .container .one{
+        grid-template-columns: 1fr;
+    }
+    .buttons-section .container .two .first{
+        grid-template-columns: 1fr;
+    }
+    .buttons-section .container .two .second{
+        grid-template-columns: 1fr;
+    }
+    .buttons-section .container .three .first{
+        grid-template-columns: 1fr;
+    } 
+    .buttons-section .container .four .first{
+        grid-template-columns: 1fr;
+    } 
+    .buttons-section .container .three .second{
+        grid-template-columns: 1fr;
+    }
+    .buttons-section .container .four .second{
+        grid-template-columns: 1fr;
+    }
+    .buttons-section .container .five {
+        grid-template-columns:  1fr;
+    }
+    .buttons-section .container .six .first {
+        grid-template-columns:  1fr ;
+    }
+    .buttons-section .container .six .second {
+        grid-template-columns:  1fr ;
+    }
+    .sample-section {
+padding: 7px;
+    }
+    .bluesection .container h2{
+        font-size: 20px;
+    }
+    .bluesection .container .row{
+        font-size: 12px;
+    }
+}

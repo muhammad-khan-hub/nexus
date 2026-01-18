@@ -1,0 +1,145 @@
+*{
+    padding:0px ;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(74, 149, 214);
+    box-shadow: none;
+}
+.bluesection{
+    height: 65vh;
+    background-color: rgb(74, 149, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.bluesection .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    color: white;
+}
+.bluesection .container h2{
+    font-size: 30px;
+}
+.bluesection .container .row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bluesection .container span a{
+text-decoration:none;  color: white;
+}
+
+.map-section{
+    width: 100%;
+    padding: 100px 20px;
+}
+.map-section .container{
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.map-section .container .upper{
+    width: 100%;
+}
+.map-section .container .upper iframe{
+    width: 100%;
+    filter:invert(100%);
+}
+.map-section .container .lower{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.map-section .container .lower .first{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+.map-section .container .lower .ttt{
+    display: flex;
+gap: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.map-section .container .lower .ttt .right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.map-section .container .lower .ttt h3{
+    font-size: 17px;
+}
+.map-section .container .lower .ttt span{
+    color: gray;
+    font-size: 14px;
+}
+.map-section .container .lower .ttt i{
+    font-size: 25px;
+    color: rgb(117, 181, 241);
+}
+.map-section .container .lower .double{
+    display: flex;
+    gap: 20px;
+}
+.map-section .container .lower .second{
+    display: flex;
+    flex-direction: column;
+gap:10px;
+}
+.map-section .container .lower .second input{
+    padding: 0px 10px;
+    width: 400px;
+    height:40px;
+border: 1px solid gainsboro;
+}
+.map-section .container .lower ::placeholder{
+    color: rgb(165, 162, 162);
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.map-section .container .lower .third{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.map-section .container .lower .third input{
+width: 450px;
+height:140px;
+padding-left: 20px;
+border: 1px solid gainsboro;
+}
+
+.map-section .container .lower .third .tn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.map-section .container .lower .third .tn a{
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+   background:linear-gradient(rgb(0, 153, 255),rgb(0, 204, 255));
+}
+.map-section .container .lower .third .tn a:hover{
+    background:linear-gradient(rgb(0, 204, 255),rgb(0, 153, 255));
+
+}
+
+
